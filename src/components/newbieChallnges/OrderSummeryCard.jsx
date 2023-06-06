@@ -7,10 +7,11 @@ function OrderSummeryCard() {
     <>
       <div className="MainContainer  absolute   w-[80%] h-[80vh] p-3">
         <div
-          className="imageContainer w-[35%] h-[50vh]
+          className="imageContainer w-[28%] h-[60vh]
           rounded-xl
-          absolute left-[10%]
-          shadow-2xl shadow-slate-300 border border-white
+          absolute left-[17%]
+          top-[12%]
+          shadow-2xl shadow-slate-300 border
         "
         >
           <img
@@ -19,20 +20,20 @@ function OrderSummeryCard() {
           />
         </div>
         <div
-          className="infoContainer absolute left-[45.2%] top-[1.5%]  w-[35%] h-[50vh]
+          className="infoContainer absolute left-[45%] top-[12.3%]  w-[35%] h-[60vh]
            shadow-2xl shadow-slate-300 border border-white ps-2"
         >
           <h3 className="font-semibold tracking-wider"> PERFUME</h3>
-          <h1 className="pt-3 font-extrabold text-4xl pr-28">
+          <h1 className="pt-2 font-extrabold text-4xl pr-2">
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className="mt-2 text-justify pr-16 text-slate-600">
+          <p className="mt-2 text-justify pr-5 text-slate-600">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             dolor et amet, facere officiis, dolore odio, beatae repudiandae
             dicta odit assumenda totam quod tenetur aperiam error provident
             molestias? Quod, expedita!
           </p>
-          <div className="flex mt-5 gap-7">
+          <div className="flex mt-2 gap-7">
             <span className="font-extrabold text-5xl text-green-900">
               $149.99
             </span>
