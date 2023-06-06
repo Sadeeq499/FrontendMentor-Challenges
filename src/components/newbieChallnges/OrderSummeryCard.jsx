@@ -20,10 +20,10 @@ function OrderSummeryCard() {
         </div>
         <div
           className="infoContainer absolute left-[45.2%] top-[1.5%]  w-[35%] h-[50vh]
-         justify-between p-5 shadow-2xl shadow-slate-300 border border-white"
+           shadow-2xl shadow-slate-300 border border-white ps-2"
         >
           <h3 className="font-semibold tracking-wider"> PERFUME</h3>
-          <h1 className="pt-10 font-extrabold text-4xl pr-28">
+          <h1 className="pt-3 font-extrabold text-4xl pr-28">
             Gabrielle Essence Eau De Parfum
           </h1>
           <p className="mt-2 text-justify pr-16 text-slate-600">
@@ -36,7 +36,7 @@ function OrderSummeryCard() {
             <span className="font-extrabold text-5xl text-green-900">
               $149.99
             </span>
-            <span className="line-through text-gray-400 pt-3">$169.99</span>
+            <span className="line-through text-gray-400 pt-2">$169.99</span>
           </div>
           {/* <button className="mt-5 w-full bg-green-900 p-3 text-white font-semibold  rounded-lg">
             <AiOutlineShoppingCart /> Add to Cart
