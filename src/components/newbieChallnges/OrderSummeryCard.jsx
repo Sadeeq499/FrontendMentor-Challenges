@@ -5,7 +5,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 function OrderSummeryCard() {
   return (
     <>
-      <div className="MainContainer  absolute top-[20%] left-[10%]  w-[80%] h-[80vh] p-3">
+      <div className="MainContainer  absolute   w-[80%] h-[80vh] p-3">
         <div
           className="imageContainer w-[35%] h-[50vh]
           rounded-xl
