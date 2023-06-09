@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../../services";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-function OrderSummeryCard() {
+function ProductPreview() {
   return (
     <>
       <div className="MainContainer  absolute   w-[80%] h-[80vh] p-3">
@@ -52,4 +52,4 @@ function OrderSummeryCard() {
   );
 }
 
-export default OrderSummeryCard;
+export default ProductPreview;
