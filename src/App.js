@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import OrderSummery from "./components/newbieChallnges/OrderSummery";
+import ResultSummary from "./components/newbieChallnges/ResultSummryCard/ResultSummary";
 
 function App() {
   return (
     <div>
-      <OrderSummery />
+      <ResultSummary />
     </div>
   );
 }
